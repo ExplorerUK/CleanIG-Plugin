@@ -16,5 +16,6 @@ Icon: Choose the icon css class for the hide/show button
 Hot:  Select whether to use the Normal or Hot button template
 Hide on Start: Specify to hide the IG toolbar on start.
 
-![alt text](CleanIG-Plugin/plugin_preview.gif)
+## Preview ##
 
+![Preview](plugin_preview.gif)
