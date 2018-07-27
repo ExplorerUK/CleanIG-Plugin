@@ -9,7 +9,7 @@ Import *dynamic_action_plugin_clean_ig.sql* file into your application.
 2. Choose *Explorer-CleanIG [Plug-In]* as a true action.
 3. Set your region in Affected Elements group.
 
-if you want to use the plugin on more the one region, just craate a new true action and repeat the steps 2 and 3.
+if you want to use the plugin for more the one region, just create a new true action and repeat the steps 2 and 3.
 
 ## Options ##
 Icon: Choose the icon css class for the hide/show button
