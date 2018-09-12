@@ -19,3 +19,7 @@ if you want to use the plugin for more the one region, just create a new true ac
 ## Preview ##
 
 ![Preview](plugin_preview.gif)
+
+## Demo ##
+https://apex.oracle.com/pls/apex/f?p=24592:1
+
