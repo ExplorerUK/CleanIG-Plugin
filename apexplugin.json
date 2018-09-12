@@ -1,0 +1,33 @@
+{
+  "name" : "Clean IG Plugin",
+  "version" : "1.0",
+  "description" : "An Oracle APEX Plug-in to enable users to show / Hide Interactive Grid Toolbar.",
+  "keywords" : ["IG", "APEX-IG", "INTERACTIVE", "GRID", "HIDE", "SHOW"],
+  "homepage" : "https://github.com/ExplorerUK/CleanIG-Plugin",
+  "bugs" : {
+    "url" : "https://github.com/ExplorerUK/CleanIG-Plugin/issues",
+    "email" : "rodrigo.mesquita@explorer.uk.com"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "Rodrigo Mesquita",
+    "email" : "rodrigo.mesquita@explorer.uk.com",
+    "donationUrl" : "paypal.me/RodrigoMesquita"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/ExplorerUK/CleanIG-Plugin.git"
+  },
+  "oracle" : {
+    "versions" : ["10.2.04", "11.2.0.1", "12.1.0.1", "12.2.0.1" ],
+    "apex" : {
+      "versions" : ["5.1.0", "18.1.0"],
+      "plugin" : {
+        "internalName" : "CLEAN_IG",
+        "type" : "dynamic action",
+        "demo" : "https://apex.oracle.com/pls/apex/f?p=24592:1",
+        "previewImage" : "https://raw.githubusercontent.com/ExplorerUK/CleanIG-Plugin/master/plugin_preview.gif"
+      }
+    }
+  }
+}
