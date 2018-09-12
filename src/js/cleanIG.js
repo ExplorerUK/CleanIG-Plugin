@@ -8,7 +8,13 @@ var cleanIG = {
       var vIcon        = da.action.attribute01;
       var vHot         = da.action.attribute02 == 'Y' ? true : false;
       var vHideOnStart = da.action.attribute03 == 'Y' ? true : false;
-      var vRegionID    = da.affectedElements[0].id;
+      if (da.affectedElements.length == 0 ){
+        return;
+      }else{
+        var vRegionID    = da.affectedElements[0].id;
+      }
+
+
       var vRegionIG    = $('#'+vRegionID);
       var vTitleRegion = $('#'+vRegionID+'_heading');
       var vTitleText   = vTitleRegion.text();
@@ -37,7 +43,7 @@ var cleanIG = {
               
             };
 
-         let config = $.extend(true, {}, toolbar.toolbar('option'))    
+          let config = $.extend(true, {}, toolbar.toolbar('option'))    
           var toolbarData = toolbarData = config.data;
           var toolbarGroup =  toolbarData.filter(function (group) { return group.id === 'actions4' })[0]  
 
