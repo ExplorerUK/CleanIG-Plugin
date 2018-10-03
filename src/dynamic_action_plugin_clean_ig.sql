@@ -16,7 +16,7 @@ wwv_flow_api.import_begin (
 ,p_release=>'5.1.3.00.05'
 ,p_default_workspace_id=>1662011781335193
 ,p_default_application_id=>100
-,p_default_owner=>'MDB_SCHEMA'
+,p_default_owner=>'RM_SANDBOX'
 );
 end;
 /
